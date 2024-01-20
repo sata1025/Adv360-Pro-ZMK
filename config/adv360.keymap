@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
-  &kp F12     &kp F1           &kp F2          &kp F3               &kp F4     &kp F5              &trans                                                                            &mo 3       &kp F6       &kp F7        &kp F8           &kp F9        &kp F10  &kp KP_NUMLOCK
-    &none   &kp HASH  &macro_brackets       &kp TILDE        &macro_braces     &kp AT               &none                                                                            &none  &kp INT_YEN    &kp KP_N7     &kp KP_N8        &kp KP_N9    &kp PERCENT    &kp KP_CLEAR
-  &kp ESC   &kp PIPE        &kp QMARK  &kp UNDERSCORE      &kp EXCLAMATION  &kp COLON            &kp BSPC    &kp TAB  &kp LALT                         &kp K_MUTE  &kp KP_CLEAR    &kp DEL   &kp DOLLAR    &kp KP_N4     &kp KP_N5        &kp KP_N6     &kp KP_DOT    &kp KP_ENTER
-    &none   &kp DLLR    &macro_parens       &kp EQUAL          &macro_than   &kp AMPS                                    &none                    &kp K_VOLUME_UP                                 &kp N    &kp KP_N1     &kp KP_N2        &kp KP_N3      &kp COMMA    &kp KP_ENTER
- &kp HOME  &kp CARET      &macro_quit     &macro_save  &macro_task_manager                       &kp BSPC  &kp SPACE     &none                  &kp K_VOLUME_DOWN     &kp ENTER  &kp KP_N0               &kp KP_PLUS  &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_DIVIDE         &kp END
+  &kp F12     &kp F1           &kp F2          &kp F3               &kp F4     &kp F5              &trans                                                                            &mo 3         &kp F6       &kp F7        &kp F8           &kp F9        &kp F10  &kp KP_NUMLOCK
+    &none   &kp HASH  &macro_brackets       &kp TILDE        &macro_braces     &kp AT               &none                                                                            &none         &kp GT    &kp KP_N7     &kp KP_N8        &kp KP_N9    &kp PERCENT    &kp KP_CLEAR
+  &kp ESC   &kp PIPE        &kp QMARK  &kp UNDERSCORE      &kp EXCLAMATION  &kp COLON            &kp BSPC    &kp TAB  &kp LALT                         &kp K_MUTE  &kp KP_CLEAR    &kp DEL     &kp DOLLAR    &kp KP_N4     &kp KP_N5        &kp KP_N6     &kp KP_DOT    &kp KP_ENTER
+    &none  &kp CARET    &macro_parens       &kp EQUAL          &macro_than   &kp AMPS                                    &none                    &kp K_VOLUME_UP                           &kp LESS_THAN    &kp KP_N1     &kp KP_N2        &kp KP_N3      &kp COMMA    &kp KP_ENTER
+ &kp HOME      &none      &macro_quit     &macro_save  &macro_task_manager                       &kp BSPC  &kp SPACE     &none                  &kp K_VOLUME_DOWN     &kp ENTER  &kp KP_N0                 &kp KP_PLUS  &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_DIVIDE         &kp END
             >;
         };
 
