@@ -26,7 +26,7 @@ macro_lan_change: macro_lan_change{
 compatible = "zmk,behavior-macro";
 label = "macro_lan_change";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LSHFT>;
+bindings = <&kp LA(LSHFT)>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
