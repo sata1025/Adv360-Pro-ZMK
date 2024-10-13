@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
-  &kp F11     &kp F1           &kp F2          &kp F3           &kp F4         &kp F5                  &trans                                                                          &mo 3         &kp F6       &kp F7        &kp F8           &kp F9        &kp F10       &kp F12
-    &none   &kp PIPE  &macro_brackets   &macro_parens      &macro_than  &kp SEMICOLON            &kp C_VOL_UP                                                                          &none         &kp GT    &kp KP_N7     &kp KP_N8        &kp KP_N9    &kp PERCENT         &none
-  &kp ESC     &kp AT        &kp QMARK  &kp UNDERSCORE  &kp EXCLAMATION      &kp TILDE            &kp C_VOL_DN      &none   &none                  &macro_task_manager      &none  &kp KP_NUM     &kp DOLLAR    &kp KP_N4     &kp KP_N5        &kp KP_N6     &kp KP_DOT       &kp ESC
-    &none  &kp CARET    &macro_braces       &kp EQUAL   &macro_dquotes      &kp COLON                                      &none                          &macro_save                         &kp LESS_THAN    &kp KP_N1     &kp KP_N2        &kp KP_N3      &kp COMMA  &kp KP_ENTER
- &kp HOME  &kp GRAVE      &macro_copy      &macro_cut     &macro_paste                                  &none  &kp SPACE   &none                          &macro_quit  &kp ENTER   &kp KP_N0                 &kp KP_PLUS  &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_DIVIDE       &kp END
+  &kp F11     &kp F1           &kp F2          &kp F3           &kp F4         &kp F5            &trans                                                                          &mo 3         &kp F6       &kp F7        &kp F8           &kp F9        &kp F10       &kp F12
+    &none   &kp PIPE  &macro_brackets   &macro_parens      &macro_than  &kp SEMICOLON             &none                                                                          &none         &kp GT    &kp KP_N7     &kp KP_N8        &kp KP_N9    &kp PERCENT         &none
+  &kp ESC     &kp AT        &kp QMARK  &kp UNDERSCORE  &kp EXCLAMATION      &kp TILDE             &none      &none   &none                  &macro_task_manager      &none  &kp KP_NUM     &kp DOLLAR    &kp KP_N4     &kp KP_N5        &kp KP_N6     &kp KP_DOT       &kp ESC
+    &none  &kp CARET    &macro_braces       &kp EQUAL   &macro_dquotes      &kp COLON                                &none                          &macro_save                         &kp LESS_THAN    &kp KP_N1     &kp KP_N2        &kp KP_N3      &kp COMMA  &kp KP_ENTER
+ &kp HOME  &kp GRAVE      &macro_copy      &macro_cut     &macro_paste                            &none  &kp SPACE   &none                          &macro_quit  &kp ENTER   &kp KP_N0                 &kp KP_PLUS  &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_DIVIDE       &kp END
             >;
         };
 
