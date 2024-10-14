@@ -2,7 +2,7 @@ macro_document: macro_document{
 compatible = "zmk,behavior-macro";
 label = "macro_document";
 #binding-cells = <0>;
-bindings = <&kp LEFT_WIN>, <&kp E>;
+bindings = <&kp LWIN>, <&kp E>;
 };
 macro_save: macro_save{
 compatible = "zmk,behavior-macro";
